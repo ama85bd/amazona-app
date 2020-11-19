@@ -81,7 +81,7 @@ img{
 img.medium{
   max-width: 29rem;
   width: 100%;
-  height:50rem;
+  height:40rem;
 }
 .card{
   border: 0.1rem #c0c0c0 solid;
@@ -98,7 +98,11 @@ img.medium{
 .price{
   font-size: 2rem;
 }
+/* Rating */
 .rating span{
   color: #f0c040;
   margin: 0.1rem;
+}
+.rating span:last-child{
+  color: #404040;
 }
